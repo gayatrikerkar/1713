@@ -5,9 +5,9 @@ public class Myfact {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	 Facto my = new Facto();
-	 my.setVar(5);
+	 my.setVar(6);
 	 System.out.println("var:"+ ""+my.getVar());
-	  my.calc(7);
+	  my.calc(6);
 	}
 
 }
