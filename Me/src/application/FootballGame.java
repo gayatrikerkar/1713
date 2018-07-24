@@ -1,6 +1,7 @@
 package application;
 
 import pojo.Player;
+import pojo.Goalkeeper;
 import pojo.Ball;
 public class FootballGame {
 
@@ -16,6 +17,10 @@ public class FootballGame {
 	 System.out.println("two : " + " " + two.getSizee() + " " + two.getWeight() + " " + two.getColor() + " " + two.getBrand());
 	 one.setColor("black");
 	 System.out.println("one : " + one.getColor());
+	 Goalkeeper goal = new Goalkeeper("gayu",5,7,11,"germany",false);
+	 System.out.println("goalkeeper's detailss:"+ "" +goal.getName()+goal.getWeight()+goal.getShoeNo()+goal.getJersieNo()+goal.getTeam());
+	 
+	 
 	}
 
 }
