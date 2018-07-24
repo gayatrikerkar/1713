@@ -18,7 +18,15 @@ public Goalkeeper(boolean hasglouse) {
 	this.hasglouse = hasglouse;
 }
 
-
-
+public Goalkeeper()
+{
+	hasglouse = false;
+}
+@Override
+public void kick()
+{
+	System.out.println("goalkeeper kick method");
+	
+}
 
 }

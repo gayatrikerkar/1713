@@ -1,6 +1,6 @@
 package pojo;
 
-public class Player {
+public abstract class Player {
 private Integer weight;
 private String name;
 private Integer shoeNo;
