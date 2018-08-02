@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1533205856 source:c:\users\admin\desktop\gayatri\my\main.cpp
+	<iostream>
+	"staff.h"
+
+1533206164 c:\users\admin\desktop\gayatri\my\include\staff.h
+	<string>
+
